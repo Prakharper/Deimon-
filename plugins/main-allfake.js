@@ -35,14 +35,14 @@ let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? c
 global.creador = 'Wa.me/573143681055'
 global.ofcbot = `${conn.user.jid.split('@')[0]}`
 global.asistencia = 'Wa.me/573143681055'
-global.namech = '˙˒𖥻˚𝐋𝐞𝐯𝐢𝐁𝐨𝐭 - 𝐂𝐡𝐚𝐧𝐧𝐞𝐥﹋꥟'
+global.namech = '˙˒𖥻˚𝐃𝐞𝐢𝐦𝐨𝐬𝐁𝐨𝐭 - 𝐂𝐡𝐚𝐧𝐧𝐞𝐥﹋꥟'
 global.namechannel2 = '『✯ 𝗧𝗲𝗮𝗺 𝗖𝗼𝗺𝘂𝗻𝗶𝘁𝘆 𝗟𝗲𝘃𝗶 ✯』'
-global.namegrupo = 'シ︎ 𝗟𝗘𝗩𝗜𝗕𝗢𝗧-2.0 🚀'
+global.namegrupo = 'シ︎ 𝗗𝗘𝗜𝗠𝗢𝗦𝗕𝗢𝗧🌕'
 global.namecomu = '『𝗚𝗿𝘂𝗽𝗼 𝗢𝗳𝗶𝗰𝗶𝗮𝗹 𝗟𝗲𝘃𝗶𝗕𝗼𝘁☠︎︎』'
 global.namecomu2 = '𝗧𝗵𝗲𝗟𝗲𝘃𝗶𝗕𝗼𝘁'
-global.colab1 = '𝗧𝗵𝗲𝗟𝗲𝘃𝗶𝗕𝗼𝘁'
-global.colab2 = '𝗧𝗵𝗲𝗟𝗲𝘃𝗶𝗕𝗼𝘁'
-global.colab3 = '𝗧𝗵𝗲𝗟𝗲𝘃𝗶𝗕𝗼𝘁'
+global.colab1 = '𝗧𝗵𝗲𝗗𝗲𝗶𝗺𝗼𝘀𝗕𝗼𝘁'
+global.colab2 = '𝗧𝗵𝗲𝗗𝗲𝗶𝗺𝗼𝘀𝗕𝗼𝘁'
+global.colab3 = '𝗧𝗵𝗲𝗗𝗲𝗶𝗺𝗼𝘀𝗕𝗼𝘁'
 
 //Reacciones De Comandos.!
 global.rwait = '🕒'
@@ -50,11 +50,11 @@ global.done = '✅'
 global.error = '✖️'
 
 //Emojis determinado de LeviBot
-global.emoji = '🪷'
-global.emoji2 = '🪷'
-global.emoji3 = '🪷'
-global.emoji4 = '🪷'
-global.emoji5 = '🪷'
+global.emoji = '🌕'
+global.emoji2 = '🌕'
+global.emoji3 = '🌕'
+global.emoji4 = '🌕'
+global.emoji5 = '🌕'
 global.emojis = [emoji, emoji2, emoji3, emoji4, emoji5].getRandom()
 
 //mensaje en espera
@@ -105,12 +105,12 @@ global.fake = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo
 }}, { quoted: m }
   
 global.icono = [ 
-'https://files.catbox.moe/gv3hlu.jpg',
-'https://files.catbox.moe/6t1j32.jpg',
-'https://files.catbox.moe/uljm72.jpg',
-'https://files.catbox.moe/wf6z93.jpg',
-'https://files.catbox.moe/6oyv6i.jpg',
-'https://files.catbox.moe/knwoxz.jpg',
+'https://files.catbox.moe/fqfijk.jpg',
+'https://files.catbox.moe/fqfijk.jpg',
+'https://files.catbox.moe/fqfijk.jpg',
+'https://files.catbox.moe/fqfijk.jpg',
+'https://files.catbox.moe/fqfijk.jpg',
+'https://files.catbox.moe/fqfijk.jpg',
 ].getRandom()
 
 global.urls = [
@@ -120,8 +120,8 @@ global.urls = [
 let gifUrl = urls[Math.floor(Math.random() * urls.length)];
 
 const canalName = [
-"⏤͟͟͞͞⋆⬪࣪ꥈ🪷★ ׄ ꒱ 𝐿𝑒𝑣𝑖𝑩𝒐𝒕 - 𝑺.𝑪.𝑨 ୭",
-"𝐌𝐚𝐬𝐡𝐚 𝐇𝐨𝐬𝐭 🪷 ℍ𝕠𝕤𝕥𝕚𝕟𝕘"
+"⏤͟͟͞͞⋆⬪࣪ꥈ🌕★ ׄ ꒱ 𝐷𝑒𝑖𝑚𝑜𝑠𝑩𝒐𝒕 - 𝑺.𝑪.𝑨 ୭",
+"𝐌𝐚𝐬𝐡𝐚 𝐇𝐨𝐬𝐭 🌕 ℍ𝕠𝕤𝕥𝕚𝕟𝕘"
 ].getRandom()
 const randomCanalName =
 canalName[Math.floor(Math.random() *
