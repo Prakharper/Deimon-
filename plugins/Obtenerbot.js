@@ -13,9 +13,9 @@ Q haga  que 10 amigos o conocidos sigan el canal, una vez que lo hagan le dices 
 
 *enviar los captures a este número* +505 5786 5603.
 
-*si no te responden en ese número unete al siguiente grupo* https://chat.whatsapp.com/DrQmZfEMSWiK2COjH3Xqq7
+*si no te responden en ese número unete al siguiente grupo* https://whatsapp.com/channel/0029Vb5iBAv72WTpjUP3T92u
 
 *Link de canal que deben seguir* 👇
 
-https://whatsapp.com/channel/0029VagYdbFEwEk5htUejk0t
+https://whatsapp.com/channel/0029Vb5iBAv72WTpjUP3T92u
 `;
