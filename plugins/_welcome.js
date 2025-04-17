@@ -19,10 +19,10 @@ export async function before(m, { conn, participants, groupMetadata }) {
     }
 
     if (m.messageStubType === WAMessageStubType.GROUP_PARTICIPANT_ADD) {
-    let bienvenida = `┌─☠︎︎ 𝐋𝐄𝐕𝐈 𝖡̶⃨͠𝐎𝗧ۚ𖬲็̹͛-2.0\n│「 Bienvenido 」\n└┬☠︎︎ 「 @${m.messageStubParameters[0].split`@`[0]} 」\n   │🪷  Bienvenido a\n   │🪷  ${groupMetadata.subject}\n   └───────────────┈ ⳹\n> ${dev}`
+    let bienvenida = `┌─☠︎︎ 𝐃𝐄𝐈𝐌𝐎𝐒 𝖡̶⃨͠𝐎𝗧ۚ𖬲็̹͛-2.0\n│「 Bienvenido 」\n└┬☠︎︎ 「 @${m.messageStubParameters[0].split`@`[0]} 」\n   │🌕  Bienvenido a\n   │🌕  ${groupMetadata.subject}\n   └───────────────┈ ⳹\n> ${dev}`
       await conn.sendMessage(m.chat, { image: img, caption: bienvenida, mentions: [who] }, { quoted: estilo })
     } else if (m.messageStubType === WAMessageStubType.GROUP_PARTICIPANT_REMOVE || m.messageStubType === WAMessageStubType.GROUP_PARTICIPANT_LEAVE) {
-     let bye = `┌─☠︎︎ 𝐋𝐄𝐕𝐈 𝖡̶⃨͠𝐎𝗧ۚ𖬲็̹͛𝐭-2.0\n│「 ADIOS 👋 」\n└┬☠︎︎ 「 @${m.messageStubParameters[0].split`@`[0]} 」\n   │🪷  Se fue\n   │🪷 hagamos fiesta!!\n   └───────────────┈ ⳹\n> ${dev}`
+     let bye = `┌─☠︎︎ 𝐃𝐄𝐈𝐌𝐎𝐒 𝖡̶⃨͠𝐎𝗧ۚ𖬲็̹͛𝐭-2.0\n│「 ADIOS 👋 」\n└┬☠︎︎ 「 @${m.messageStubParameters[0].split`@`[0]} 」\n   │🌕  Se fue\n   │🌕 hagamos fiesta!!\n   └───────────────┈ ⳹\n> ${dev}`
       await conn.sendMessage(m.chat, { image: img, caption: bye, mentions: [who] }, { quoted: estilo })
     }
   }
